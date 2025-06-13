@@ -86,7 +86,7 @@ class ScryfallViewModel : ViewModel() {
             else -> null
         }
     }
-
+    //Hola
     fun isDoubleFaced(card: ScryfallCard): Boolean {
         return card.layout in listOf(
             "transform", "modal_dfc", "double_faced_token", "art_series", "reversible_card"
